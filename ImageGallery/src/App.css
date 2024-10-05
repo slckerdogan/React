@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background: linear-gradient(to right, #dfabc5 0%, #1da1f2 100%);
+}
+
+
+img{
+  width: 250px;
+  margin:15px;
+}
+
+.container {
+  padding: 25px 30px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 300px;
+}
+
+.app{
+  text-align: center; 
+  box-sizing: border-box; 
+  margin: auto; 
+  padding:55px;
+}
