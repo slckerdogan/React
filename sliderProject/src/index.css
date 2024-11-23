@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color:black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  background-color: #1d1d1d;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container .title{
+  margin-top: -28px;
+  letter-spacing: 1.5px;
+}
+
+p{
+  font-size: larger;
+}
+
+.button-container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.button-container .prev-btn, .button-container .next-btn{
+ border: none;
+ padding: 5px 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 30px;
+ cursor: pointer;
+}
+
+.random-btn{
+  margin-top: 5px;
+  font-family: 'Antic Slab', serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+ }
+
+ .button-container .prev-btn:hover, .button-container .next-btn:hover,.random-btn:hover{
+  background-color: rgb(87, 90, 90);
+  scale: 1.5;
+  color:antiquewhite
+ }
